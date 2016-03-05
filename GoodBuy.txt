@@ -1,1 +1,2 @@
 print("GoodBuy")
+print("GoodBuy")
