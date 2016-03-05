@@ -1,2 +1,0 @@
-print("GoodBuy")
-print("GoodBuy")
