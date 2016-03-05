@@ -23,15 +23,15 @@ char* now_date_simb[2][3] = {
 };
 boolean min1, hour1 = false;
 boolean date1, month1, year1 = false;
-char* dayoftheweek[8][2] = {
+char* dayoftheweek[8][3] = {
 	{ "", ""},
-	{ "MONDAY", "\x89""o""\xA2""e""\x99""e""\xA0\xAC\xA2\x9D\x9F"},
-	{ "TUESDAY", "B""\xA4""op""\xA2\x9D\x9F"},
-	{ "WEDNESDAT", "Cpe""\x99""a"},
-	{ "THURSDAY", "\x8D""e""\xA4\x97""ep""\x98"},
-	{ "FRIDAY", "\x89\xAF\xA4\xA2\x9D\xA6""a"},
-	{ "SATURDAY", "Cy""\x96\x96""o""\xA4""a"},
-	{ "SUNDAY", "Boc""\x9F""pece""\xA2\xAC""e"},
+	{ "MONDAY", "\x89""o""\xA2""e""\x99""e""\xA0\xAC\xA2\x9D\x9F", "\x89\xA2" },		//Понедельник, Пн
+	{ "TUESDAY", "B""\xA4""op""\xA2\x9D\x9F", "B""\xA4" },								//Вторник, Вт
+	{ "WEDNESDAT", "Cpe""\x99""a", "Cp" },												//Среда, Ср
+	{ "THURSDAY", "\x8D""e""\xA4\x97""ep""\x98", "\x8D\xA4" },							//Четверг, Чт
+	{ "FRIDAY", "\x89\xAF\xA4\xA2\x9D\xA6""a", "\x89\xA4" },							//Пятница, Пт
+	{ "SATURDAY", "Cy""\x96\x96""o""\xA4""a", "C""\x96" },								//Суббота, Сб
+	{ "SUNDAY", "Boc""\x9F""pece""\xA2\xAC""e", "Bc" },									//Воскресенье, Вс
 };
 ////////////////////////////////////////////////////////////////////////////
 
